@@ -24,14 +24,6 @@ namespace Cliente_AdoptMe.Vista
         public ConsultarAdopcionExterna()
         {
             InitializeComponent();
-
-            //VALIDAR SI ES ADMIN O NO
-            /*if ()
-            {
-                Btn_EnviarMensaje.Visibility = Visibility.Collapsed;
-                Btn_Solicitar.Visibility = Visibility.Collapsed;
-                Btn_Cancelar.Visibility = Visibility.Collapsed;
-            }*/
         }
 
         private void BtnCancelar(object sender, RoutedEventArgs e)

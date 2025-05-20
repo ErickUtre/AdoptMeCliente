@@ -25,7 +25,6 @@ namespace Cliente_AdoptMe.Vista
             NavegadorPrincipal.Instancia.Navegar(new MapaPrincipal());
         }
 
-
         private void BtnCerrarMenuPrincipal(object sender, RoutedEventArgs e)
         {
             this.Close();
@@ -43,12 +42,12 @@ namespace Cliente_AdoptMe.Vista
 
         private void BtnIrRegistrarAdopcion(object sender, RoutedEventArgs e)
         {
-            NavegadorPrincipal.Instancia.Navegar(new RegistrarAdopcion());
+
         }
 
         private void BtnIrVerAdopciones(object sender, RoutedEventArgs e)
         {
-            NavegadorPrincipal.Instancia.Navegar(new ConsultarAdopciones());
+
         }
 
         private void BtnIrMensajes(object sender, RoutedEventArgs e)
@@ -59,11 +58,6 @@ namespace Cliente_AdoptMe.Vista
             {
                 NavegadorPrincipal.Instancia.Navegar(new Mensajes());
             }
-        }
-
-        private void Btn_IconoUsuario(object sender, RoutedEventArgs e)
-        {
-            NavegadorPrincipal.Instancia.Navegar(new ConsultarUsuario());
         }
     }
 }
